@@ -188,13 +188,10 @@ int neighbours(int i, int j)  {
   // Counts live cells in valid range of given cell
   for (int h = Hleft; h <= Hright; h++)  {
     for (int v = Vup; v <= Vdown; v++)  {
-      if (cells[i + h][j + v] == 0)  {n++;}
+      if ((h != 0 || v != 0) && cells[i + h][j + v] == 0)  {n++;}
     }
   }
-  
-  // Corrects for counting given cell
-  if (cells[i][j] == 0)  {n--;}
-  
+
   return n;
 }
 
