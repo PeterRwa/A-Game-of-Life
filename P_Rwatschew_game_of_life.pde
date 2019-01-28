@@ -28,7 +28,7 @@
     1. Enter - start/stop animation of cells.
     2. Delete (when animation stopped) - clears the cells.
     3. Leftmouse click/drag (when animation stopped) - switches the state of cell/s.
-    4. Tab (when animation stopped) - show/hide user controls 
+    4. Up (when animation stopped) - show/hide user controls 
       
     Functions
       void Setup() - Called once to set initial conditions.
@@ -53,7 +53,7 @@ int[][] cells;
 int[][] nextCells;
 int cellSize = 15;
 
-String info = "A Game of Life\nUser Controls\n  1. Enter - start/stop animation of cells.\n  2. Delete (when animation stopped) - clears the cells.\n  3. Left mouse click/drag (when animation stopped) - switches the state of cell/s.\n  4. Tab (when animation stopped) - show/hide user controls";
+String info = "A Game of Life\nUser Controls\n  1. Enter - start/stop animation of cells.\n  2. Delete (when animation stopped) - clears the cells.\n  3. Left mouse click/drag (when animation stopped) - switches the state of cell/s.\n  4. Up (when animation stopped) - show/hide user controls";
 
 // Dimention of screen (in terms of cells)
 // col = width row = height
@@ -93,7 +93,7 @@ void draw()  {
   // Display user instructions
   if (run == false && show == true)  {
     fill(255);
-    rect(width/2 - 280, height/2 - 60, 640, 170);
+    rect(width/2 - 280, height/2 - 60, 640, 150);
     fill(0);
     textSize(15);
     text(info, width/2 - 250, height/2 - 40);
