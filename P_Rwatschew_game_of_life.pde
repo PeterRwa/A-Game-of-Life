@@ -120,7 +120,7 @@ void keyPressed()  {
   }  
   
   // Show/hide user controls
-  if (key == TAB && run == false)  {
+  if (keyCode == UP && run == false)  {
     show = (show) ? false : true;
   }  
 }
