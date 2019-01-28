@@ -1,8 +1,8 @@
 # A Game of Life
 Implementation of  A Game of Life for the BBC's Software Graduate Scheme application process.
 
-This implimentation is written using Processing 2.1.1 can also be viewed here - https://www.openprocessing.org/sketch/660047.
-
+This implimentation was written using Processing 2.1.1, it also viewable here - https://www.openprocessing.org/sketch/660047.
+Processing was used as it offers natural input/outputs for this task.
  # Rules 
   1. A live cell with less than 2 neighbours dies.
   2. A live cell with more than 3 neighbours dies.
@@ -21,4 +21,4 @@ This implimentation is written using Processing 2.1.1 can also be viewed here - 
   
   4. The user has use of a mouse and keyboard.
   
-  5. The user has Processing 2.2.1 or is able to view the code at OpenProcessing (see link below).
+  5. The user has Processing 2.2.1 or is able to view the code at OpenProcessing (see link above).
