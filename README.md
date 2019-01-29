@@ -13,7 +13,8 @@ Processing was used as it offers natural input/outputs for this task.
   1. The rules are applied to all cells at the same time, as opposed to cell by cell.
   
   2. A suitably large but finite grid of cells can adequatly replicate an infinite grid.
-     The grid of cells is finite. A region of cells can be added which are not dispayed to the screen but act as normal cells.
+     
+     The grid of cells used is finite. A region of cells can be added which are not dispayed to the screen but act as normal cells.
      These cells help to imitate an infinite grid. Cells which are not displayed are called the buffer.  Increasing the buffer
      better replicates an infinite grid but slows the animation of cell evolution.
   
